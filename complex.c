@@ -216,7 +216,7 @@ struct rarg convtcomplex ( struct c c1)         //15
     struct rarg a;                                     // into modulus and argument
     a.mod=absolcomplex(c1);                            // with argument in radians
     a.theta=atan2(c1.imag,c1.real);
-    strcpy(a.mode,"rad");    // WWWHHHYYY????
+    strcpy(a.mode,"rad");    
     return a;
 }
 
